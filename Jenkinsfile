@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'git@github.com:akhiltm18/your-repo.git'
+                    url: 'git@github.com:akhiltm18/myweb.git'
             }
         }
 
